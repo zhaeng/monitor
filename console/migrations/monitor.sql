@@ -155,7 +155,7 @@ CREATE TABLE `oauth_clients` (
 -- Table data for table `oauth_clients`
 --
 
-INSERT INTO  `monitor`.`oauth_clients` (client_id,client_secret,redirect_uri,grant_types) VALUE ('monitor1','monitor','abc','password');
+INSERT INTO  `monitor`.`oauth_clients` (client_id,client_secret,redirect_uri,grant_types) VALUE ('monitor','monitor','abc','password');
 --
 -- Table structure for table `oauth_jwt`
 --
